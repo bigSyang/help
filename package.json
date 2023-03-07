@@ -1,0 +1,23 @@
+{
+  "name": "edgs-docs",
+  "version": "3.0.0",
+  "description": "edgs document",
+  "main": "index.js",
+  "repository": "http://192.168.10.152/wcompass-rdd-wuhan-ui/edgs-docs.git",
+  "author": "pengpei",
+  "license": "MIT",
+  "scripts": {
+    "deploy": "bash deploy2.sh",
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "docs:preview": "vitepress preview"
+  },
+  "devDependencies": {
+    "flexsearch": "^0.7.31",
+    "markdown-it": "^13.0.1",
+    "segment": "^0.1.3",
+    "vitepress": "1.0.0-alpha.49",
+    "vitepress-plugin-search": "1.0.4-alpha.19",
+    "vue": "^3.2.47"
+  }
+}
